@@ -1,0 +1,70 @@
+.main{
+    border : 2px solid gainsboro;
+    width: 150px;
+   margin: 0 auto;
+   border-radius: 20px;
+   padding: 10px 10px 20px;
+   background-color: gray;
+   
+   
+
+    
+}
+.heading{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+#input, #answer{
+    width: 98%;
+    background-color: gainsboro;
+    color: black;
+    height: 30px;
+    border-radius: 20px;
+    text-align: right;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    
+    
+    
+    
+}
+.btn:hover {
+    background-image: linear-gradient(to bottom, #c3e3fa, #a5defb);
+    
+}
+
+
+
+#input{
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px black;
+    color: #1e1e1e;
+}
+#answer{
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 2px black;
+    margin-bottom: 10px;
+}
+
+
+/* .clrBtn{
+       width: 97%;
+       margin-top: 10px;
+       color: grey;
+       height: 50px;
+} */
+.btn{
+    margin-top: 10px;
+    background-color: honeydew;
+    width: 30px;
+    height: 20px;
+    margin: 1px;
+    border-radius: 20px;
+    border: ivory;
+    outline: none;
+}
