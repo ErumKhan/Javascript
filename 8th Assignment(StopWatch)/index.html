@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers">
+</head>
+<body>
+     
+    <!-- <div id="countdown">
+        
+        <div class="circle">
+        <span class="time">
+              
+                <h3 id="min">0</h3>
+                <h3 id="min">0</h3>
+                <h3>:</h3>
+
+                <h3 id="sec">00 :</h3>
+                <h3 id="msec">00</h3>
+                
+          </span>
+        </div> -->
+        
+      <!-- </div> -->
+
+
+
+
+
+
+    
+
+    
+    <div class="countdown" >
+        
+    
+    
+      <div class="countdown-time" >
+
+        <div class="clearfix"  id="js-countDown">
+        <h1>STOP WATCH</h1>
+
+           
+    
+    
+          <h2 class="item" ><i id="min">00</i><span>minutes</span></h2>
+    
+          <h2 class="blank" >:</h2>
+    
+          <h2 class="item"><i id="sec">00</i><span>seconds</span></h2>
+    
+          <h2 class="blank">:</h2>
+    
+          <h2 class="item"><i id="msec">00</i><span>milliseconds</span></h2>
+    
+          </div>
+          
+    
+      </div>
+      <div>
+        <button onclick='start(); this.onclick = null; this.setAttribute("style", "color: #ccc");'>START</button>
+    <button onclick="stop();" >STOP</button>
+    <button  onclick="reset();"> <a href="#"onclick="reset();"></a> RESET</button>
+      </div>
+
+      <script src="app.js"></script>
+    
+</body>
+</html>
